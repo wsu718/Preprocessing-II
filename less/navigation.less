@@ -13,9 +13,23 @@
             text-decoration: none;
             color: black;
         }// end a
+        @media @mobile {
+            justify-content: space-evenly;
+            width: 90%;
+            margin-top: 3%;
+        }
     }// end nav
     margin-top: 2%;
     padding-bottom: 2%;
     border-bottom: 2px dashed silver;
-    width: 100%;
+    width: 100%;   
+    .logo {
+        @media @mobile {
+            display: flex;
+            justify-content: center;
+        }
+    } 
+    @media @mobile {
+        flex-direction: column;
+    }
 }// end header
