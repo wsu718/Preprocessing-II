@@ -1,1 +1,18 @@
 // Mixins in here
+
+.button-style(@bgcolor,@fontcolor,@fontsize){
+    padding: 15px 10px;
+    background-color: @bgcolor;
+    border-radius: 15px;
+    text-align: center;
+    color: @fontcolor;
+    font-size: @fontsize;
+}
+.wsanimal(@name,@duration,@delay){
+    animation-name: @name;
+    animation-duration: @duration; 
+    animation-timing-function: ease-out; 
+    animation-delay: @delay;
+}
+
+
